@@ -5,5 +5,11 @@ Avant : Le soleil est bleu
 Apres : bleu est soleil Le
 """
 
-a = open('TP_fichiers_1_1/exo1.txt', 'r')
-len(a.r)
+a = "Le soleil est bleu"
+c = a.split()
+c.reverse()
+g = ' '.join(c)
+
+f = open('TP_fichiers_1_1/exo4.txt', 'w')
+f.write(g)
+f.close()

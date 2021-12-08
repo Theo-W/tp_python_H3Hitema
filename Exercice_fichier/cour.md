@@ -12,9 +12,6 @@ les fichiers
         5 _ Déplacer le curseur (lecture/ecriture)
             `"mon fichier".seek("decalage(int)", "origin du décalage")`
 
-
-
-
  type de fichier
     relation: à partir du répertoire courant
     absolu: à partir de la racine du disque
@@ -34,4 +31,9 @@ Origin du décalage
     0 : début du fichier
     1 : position actuel du curseur
     2 : fin du fichier
+
+
+fonction util:
+`splif` = crée un tableau en séparant la liste
+`reverse` = met en l'envers la liste
          

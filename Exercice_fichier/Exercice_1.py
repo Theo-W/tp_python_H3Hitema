@@ -11,8 +11,8 @@ a.close()
 fr = open('TP_fichiers_1_1/result.txt', 'w')
 i = 1
 for e in content:
-    fr.write(e.replace("\n"," "))
+    fr.write(e.replace("\n", " "))
     if i % 10 == 0:
         fr.write('\n')
-    i+=1
+    i += 1
 fr.close()
